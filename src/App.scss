@@ -1,0 +1,43 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.todoItem {
+    margin-right: 50px;
+}
+
+.actionButton {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: inherit;
+    margin: 5px;
+}
+
+.actionButton:hover {
+    color: blue;
+}
+
+.main-container {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.addButton {
+    width: 100%;
+}
